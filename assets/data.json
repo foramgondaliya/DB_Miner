@@ -2,161 +2,105 @@
   "inspirational": [
     {
       "quote": "In a gentle way, you can shake the world.",
+      "id" : 1,
       "author": "Mahatma Gandhi"
     },
     {
       "quote": "Follow your bliss and the universe will open doors where there were only walls.",
-      "author": "Joseph Campbell"
+      "author": "Joseph Campbell",
+      "id" : 2
     },
     {
       "quote": "Each day provides its own gifts.",
-      "author": "Marcus Aurelius"
+      "author": "Marcus Aurelius",
+      "id" : 3
     },
     {
       "quote": "Creativity is intelligence having fun.",
-      "author": "Albert Einstein"
+      "author": "Albert Einstein",
+      "id" : 4
     },
     {
       "quote": "You have to be lucky to be successful, but luck can be engineered.",
-      "author": "Zat Rana"
+      "author": "Zat Rana",
+      "id" : 5
     },
     {
       "quote": "It all starts and ends in the mind. The most crucial skill is how you think.",
-      "author": "Zat Rana"
+      "author": "Zat Rana",
+      "id" : 6
     },
     {
       "quote": "Accept responsibly for your life. Know that it is you who will get you where you want to go, no one else.",
-      "author": "Les Brown"
+      "author": "Les Brown",
+      "id" : 7
     },
     {
       "quote": "You cannot plough a field by turning it over in your mind.",
-      "author": "Anonymous"
+      "author": "Anonymous",
+      "id" : 8
     },
     {
       "quote": "The world is wide, and I will not waste my life in friction when it could be turned into momentum.",
-      "author": "Frances E. Willard"
+      "author": "Frances E. Willard",
+      "id" : 9
     },
     {
       "quote": "Believe with all of your heat that you will do what you were made to do.",
-      "author": "Orison Swett Marden"
-    },
-    {
-      "quote": "Do not wait to strike till the iron is hot; but make it hot by striking.",
-      "author": "William B. Sprague"
-    },
-    {
-      "quote": "If you have the guts to keep making mistakes, your wisdom and intelligence leap forward with huge momentum.",
-      "author": "Holly Near"
-    },
-    {
-      "quote": "Good things come to those who wait but greater things come to those who get off their ass and do anything to make it happen.",
-      "author": "Anonymous"
-    },
-    {
-      "quote": "Ask and it will be given to you; search and you will find; knock and the door will be opened for you.",
-      "author": "Jesus"
-    },
-    {
-      "quote": "People often say that motivation doesn’t last. Well, neither does bathing and that is why we recommend it daily.",
-      "author": "Zig Ziglar"
-    },
-    {
-      "quote": "I can, therefore I am.",
-      "author": "Simone Weil"
-    },
-    {
-      "quote": "I’ve found that luck is quite predictable. If you want more luck, take more chances. Be more active. Show up more often.",
-      "author": "Brian Tracy"
-    },
-    {
-      "quote": "You need to overcome the tug of people against you as you reach for high goals.",
-      "author": "George S. Patton"
-    },
-    {
-      "quote": "To know oneself, one should assert oneself.",
-      "author": "Albert Camus"
-    },
-    {
-      "quote": "The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself.",
-      "author": "Mark Caine"
-    },
-    {
-      "quote": "The most effective way to do it, is to do it.",
-      "author": "Amelia Earhart"
-    },
-    {
-      "quote": "Begin to be now what you will be hereafter.",
-      "author": "William James"
+      "author": "Orison Swett Marden",
+      "id" : 10
     }
   ],
   "motivational": [
     {
       "quote": "The only way to achieve the impossible is to believe it is possible.",
-      "author": "Charles Kingsleigh"
+      "author": "Charles Kingsleigh",
+      "id" : 11
     },
     {
       "quote": "You are never too old to set another goal or to dream a new dream.",
-      "author": "C.S. Lewis"
+      "author": "C.S. Lewis",
+      "id" : 12
     },
     {
       "quote": "You don’t have to be great to start, but you have to start to be great.",
-      "author": "Zig Ziglar"
+      "author": "Zig Ziglar",
+      "id" : 13
     },
     {
       "quote": "Do what you can, with what you have, where you are.",
-      "author": "Theodore Roosevelt"
+      "author": "Theodore Roosevelt",
+      "id" : 14
     },
     {
       "quote": "To live a creative life, we must lose our fear of being wrong.",
-      "author": "Joseph Chilton Pearce"
+      "author": "Joseph Chilton Pearce",
+      "id" : 15
     },
     {
       "quote": "Our greatest glory is not in never falling, but in rising every time we fall.",
-      "author": "Confucius"
+      "author": "Confucius",
+      "id" : 16
     },
     {
       "quote": "Don’t watch the clock; do what it does. Keep going.",
-      "author": "Sam Levenson"
+      "author": "Sam Levenson",
+      "id" : 17
     },
     {
       "quote": "The future belongs to those who believe in the beauty of their dreams.",
-      "author": "Eleanor Roosevelt"
+      "author": "Eleanor Roosevelt",
+      "id" : 18
     },
     {
       "quote": "Opportunities don't happen. You create them.",
-      "author": "Chris Grosser"
+      "author": "Chris Grosser",
+      "id" : 19
     },
     {
       "quote": "The best way to predict the future is to invent it.",
-      "author": "Alan Kay"
-    },
-    {
-      "quote": "The only limit to our realization of tomorrow is our doubts of today.",
-      "author": "Franklin D. Roosevelt"
-    },
-    {
-      "quote": "You must expect great things of yourself before you can do them.",
-      "author": "Michael Jordan"
-    },
-    {
-      "quote": "We may encounter many defeats but we must not be defeated.",
-      "author": "Maya Angelou"
-    },
-    {
-      "quote": "Act as if what you do makes a difference. It does.",
-      "author": "William James"
-    },
-    {
-      "quote": "The only limit to our realization of tomorrow is our doubts of today.",
-      "author": "Franklin D. Roosevelt"
-    },
-    {
-      "quote": "Everything you’ve ever wanted is on the other side of fear.",
-      "author": "George Addair"
-    },
-    {
-      "quote": "It always seems impossible until it’s done.",
-      "author": "Nelson Mandela"
+      "author": "Alan Kay",
+      "id" : 20
     }
   ],
   "encouragement": [
@@ -381,6 +325,189 @@
     {
       "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
       "author": "Ralph Waldo Emerson"
+    }
+  ],
+  "happy": [
+    {
+      "quote": "Happiness is not something ready-made. It comes from your own actions.",
+      "author": "Dalai Lama",
+      "id" : 24
+    },
+    {
+      "quote": "The purpose of our lives is to be happy.",
+      "author": "Dalai Lama",
+      "id" : 25
+    },
+    {
+      "quote": "For every minute you are angry, you lose sixty seconds of happiness.",
+      "author": "Ralph Waldo Emerson",
+      "id" : 26
+    },
+    {
+      "quote": "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
+      "author": "Franklin D. Roosevelt",
+      "id" : 27
+    },
+    {
+      "quote": "Happiness is when what you think, what you say, and what you do are in harmony.",
+      "author": "Mahatma Gandhi",
+      "id" : 28
+    }
+  ],
+  "sad": [
+    {
+      "quote": "Tears come from the heart and not from the brain.",
+      "author": "Leonardo da Vinci",
+      "id" : 29
+    },
+    {
+      "quote": "The walls we build around us to keep sadness out also keeps out the joy.",
+      "author": "Jim Rohn",
+      "id" : 30
+    },
+    {
+      "quote": "Every man has his secret sorrows which the world knows not; and often we call a man cold when he is only sad.",
+      "author": "Henry Wadsworth Longfellow",
+      "id" : 31
+    },
+    {
+      "quote": "Sadness flies away on the wings of time.",
+      "author": "Jean de La Fontaine",
+      "id" : 32
+    },
+    {
+      "quote": "We must understand that sadness is an ocean, and sometimes we drown, while other days we are forced to swim.",
+      "author": "R.M. Drake",
+      "id" : 33
+    },
+    {
+      "quote": "The word 'happy' would lose its meaning if it were not balanced by sadness.",
+      "author": "Carl Jung",
+      "id" : 34
+    },
+    {
+      "quote": "Heavy hearts, like heavy clouds in the sky, are best relieved by the letting of a little water.",
+      "author": "Christopher Morley",
+      "id" : 35
+    },
+    {
+      "quote": "The saddest thing in life is to see the one you love happy with someone else.",
+      "author": "Anonymous",
+      "id" : 36
+    },
+    {
+      "quote": "Sometimes, you have to know that sadness is just another word for 'not enough.'",
+      "author": "Sarah Dessen",
+      "id" : 37
+    },
+    {
+      "quote": "Sadness is but a wall between two gardens.",
+      "author": "Khalil Gibran",
+      "id" : 38
+    }
+  ],
+  "faith": [
+    {
+      "quote": "Faith is taking the first step even when you don't see the whole staircase.",
+      "author": "Martin Luther King Jr.",
+      "id" : 39
+    },
+    {
+      "quote": "Faith is the bird that feels the light and sings when the dawn is still dark.",
+      "author": "Rabindranath Tagore",
+      "id" : 40
+    },
+    {
+      "quote": "To one who has faith, no explanation is necessary. To one without faith, no explanation is possible.",
+      "author": "Thomas Aquinas",
+      "id" : 41
+    },
+    {
+      "quote": "Faith is not the belief that God will do what you want. It is the belief that God will do what is right.",
+      "author": "Max Lucado",
+      "id" : 42
+    },
+    {
+      "quote": "Faith is a knowledge within the heart, beyond the reach of proof.",
+      "author": "Khalil Gibran",
+      "id" : 43
+    },
+    {
+      "quote": "Faith does not eliminate questions. But faith knows where to take them.",
+      "author": "Elisabeth Elliot",
+      "id" : 44
+    },
+    {
+      "quote": "Faith is the strength by which a shattered world shall emerge into the light.",
+      "author": "Helen Keller",
+      "id" : 45
+    },
+    {
+      "quote": "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.",
+      "author": "Helen Keller",
+      "id" : 46
+    },
+    {
+      "quote": "Doubt isn't the opposite of faith; it is an element of faith.",
+      "author": "Paul Tillich",
+      "id" : 47
+    },
+    {
+      "quote": "Faith is seeing light with your heart when all your eyes see is darkness.",
+      "author": "Anonymous",
+      "id" : 48
+    }
+  ],
+  "love": [
+    {
+      "quote": "Love is composed of a single soul inhabiting two bodies.",
+      "author": "Aristotle",
+      "id" : 49
+    },
+    {
+      "quote": "Where there is love there is life.",
+      "author": "Mahatma Gandhi",
+      "id" : 50
+    },
+    {
+      "quote": "The best thing to hold onto in life is each other.",
+      "author": "Audre Lorde",
+      "id" : 51
+    },
+    {
+      "quote": "Love is not about how many days, months, or years you have been together. Love is about how much you love each other every single day.",
+      "author": "Anonymous",
+      "id" : 52
+    },
+    {
+      "quote": "To love and be loved is to feel the sun from both sides.",
+      "author": "David Viscott",
+      "id" : 53
+    },
+    {
+      "quote": "Love is the only force capable of transforming an enemy into a friend.",
+      "author": "Martin Luther King Jr.",
+      "id" : 54
+    },
+    {
+      "quote": "We accept the love we think we deserve.",
+      "author": "Stephen Chbosky",
+      "id" : 55
+    },
+    {
+      "quote": "Love is not about possession. Love is about appreciation.",
+      "author": "Osho",
+      "id" : 56
+    },
+    {
+      "quote": "The greatest happiness of life is the conviction that we are loved.",
+      "author": "Victor Hugo",
+      "id" : 57
+    },
+    {
+      "quote": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+      "author": "Martin Luther King Jr.",
+      "id" : 58
     }
   ]
 }

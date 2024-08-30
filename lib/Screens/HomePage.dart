@@ -1,7 +1,8 @@
 import 'dart:convert';
+import 'package:budget_tracker_app/Model/DataModel.dart';
+import 'package:budget_tracker_app/helper/api_Helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'DetailPage.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -24,30 +25,86 @@ class _HomePageState extends State<HomePage> {
     response = loadQuotes();
   }
 
+  void showRandomQuote() async {
+    final Quote? randomQuote = await ApiHelper.apiHelper.fetchRandomQuote();
+    if (randomQuote != null) {
+      showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: const Text("Random Quote"),
+            content: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  randomQuote.quote,
+                  style: const TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 20),
+                Text(
+                  "- ${randomQuote.author}",
+                  style: const TextStyle(
+                    fontSize: 16,
+                    fontStyle: FontStyle.italic,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
+            actions: [
+              TextButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                child: const Text("Close"),
+              ),
+            ],
+          );
+        },
+      );
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Quote Categories'),
+        title: const Text('Quote Categories'),
+        actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed('FavouritePage');
+            },
+            icon: const Icon(Icons.favorite_border),
+          ),
+        ],
+      ),
+      floatingActionButton: SizedBox(
+        width: 150,
+        child: FloatingActionButton(
+          onPressed: showRandomQuote,
+          child: const Text("Surprise me"),
+          isExtended: true,
+        ),
       ),
       body: FutureBuilder<Map<String, dynamic>>(
         future: response,
         builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return Center(
-              child: CircularProgressIndicator(),
-            );
-          } else if (snapshot.hasError) {
+          if (snapshot.hasError) {
             return Center(
               child: Text('Error: ${snapshot.error}'),
             );
           } else if (!snapshot.hasData || snapshot.data == null) {
-            return Center(child: Text('No data available'));
+            return const Center(child: Text('No data available'));
           } else {
             final categories = snapshot.data!.keys.toList();
 
             return GridView.builder(
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
                 crossAxisSpacing: 10,
                 mainAxisSpacing: 10,
@@ -58,13 +115,8 @@ class _HomePageState extends State<HomePage> {
                 final categoryName = categories[index];
                 return GestureDetector(
                   onTap: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(
-                        builder: (context) => DetailPage(),
-                        settings: RouteSettings(
-                            arguments: snapshot.data![categoryName]),
-                      ),
-                    );
+                    Navigator.of(context).pushNamed('DetailPage',
+                        arguments: snapshot.data![categoryName]);
                   },
                   child: Card(
                     elevation: 4.0,
@@ -73,7 +125,7 @@ class _HomePageState extends State<HomePage> {
                         padding: const EdgeInsets.all(16.0),
                         child: Text(
                           categoryName.toUpperCase(),
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w500,
                           ),

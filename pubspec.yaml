@@ -38,6 +38,9 @@ dependencies:
   sqflite: ^2.3.3+1
   path:
   image_picker:
+  share_extend:
+  path_provider:
+  google_fonts:
 
 dev_dependencies:
   flutter_test:
