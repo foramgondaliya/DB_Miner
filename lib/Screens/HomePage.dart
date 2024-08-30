@@ -1,8 +1,10 @@
 import 'dart:convert';
 import 'package:budget_tracker_app/Model/DataModel.dart';
 import 'package:budget_tracker_app/helper/api_Helper.dart';
+import 'package:budget_tracker_app/provider/themeProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -79,7 +81,17 @@ class _HomePageState extends State<HomePage> {
             onPressed: () {
               Navigator.of(context).pushNamed('FavouritePage');
             },
-            icon: const Icon(Icons.favorite_border),
+            icon: const Icon(
+              Icons.favorite,
+              size: 35,
+            ),
+          ),
+          Switch(
+            value: Provider.of<ThemeProvider>(context).istap,
+            onChanged: (val) {
+              Provider.of<ThemeProvider>(context, listen: false)
+                  .changetheme(val);
+            },
           ),
         ],
       ),
