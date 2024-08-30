@@ -1,19 +1,41 @@
 # budget_tracker_app
 
-A new Flutter project.
+## Features
 
-## Getting Started
+## 1. Quote Categories
+Categorized Quotes: 
+Quotes are organized into various categories, making it easy for users to find quotes that match their interests.
 
-This project is a starting point for a Flutter application.
+Detail Page: 
+Users can view detailed information about each quote on a dedicated page, where they can interact with and Edit the quote.
 
-A few resources to get you started if this is your first Flutter project:
+## 2. Favorite Quotes
+Add to Favorites: 
+Users can add quotes to a favorites list for easy access later.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Favorites Management: 
+The app provides functionality to view and remove quotes from the favorites list.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 3. Customization Options
+Font Size and Boldness: 
+Users can adjust the font size and boldness of quotes to enhance readability and personalize their experience.
+
+Background and Font Color: 
+Users can change the background color and font color of quotes to suit their aesthetic preferences.
+
+## 4. Theme Switching 
+The app allows users to switch between different themes (e.g., light and dark mode) to suit their visual preferences.
+
+## 5. Quote Interaction
+Share Quotes: 
+Users can easily share their favorite quotes with others through various platforms.
+
+Copy Quotes: 
+The app allows users to copy quotes to the clipboard for use in other applications.
+User Interface
+
+## 6. Random Quotes
+User can view random quotes from API.
 
 
 ![Screenshot_20240830_124703](https://github.com/user-attachments/assets/09b9dc00-c846-43b4-9ce6-d9552146d056)
